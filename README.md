@@ -1,7 +1,7 @@
 # Semantha Voice Assistant
 Welcome to the Semantha Voice Assistant, a AI companion designed to provide personalized and 
-context-aware interactions through the integration of advanced semantic analysis, sentiment detection, and voice 
-processing technologies. This system is adept at understanding user intent and sentiment, offering responses that 
+context-aware interactions through the integration of autogen, semantic routing and, VoiceProcessingToolkit. 
+This system is adept at understanding user intent and sentiment, offering responses that 
 are empathetic, humorous, or detailed, tailored to the user's needs.
 
 ## Setup and Installation
