@@ -1,0 +1,5 @@
+# Exclude local configuration files and sensitive settings
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+.idea/shelf

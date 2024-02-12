@@ -3,6 +3,8 @@ import logging
 
 
 class ConfigurationManager:
+    # IMPORTANT: Ensure this configuration file does not contain sensitive information like API keys or passwords.
+    # Always use environment variables or secure storage for sensitive data.
     def __init__(self, filename: str = 'Config/config_file.json'):
         self.filename = filename
         self.config = self.load_config()

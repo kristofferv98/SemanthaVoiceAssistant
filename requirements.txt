@@ -1,0 +1,7 @@
+
+pyautogen[websurfer]
+pyfiglet
+semantic-router
+VoiceProcessingToolkit
+PyMuPDF
+elevenlabs

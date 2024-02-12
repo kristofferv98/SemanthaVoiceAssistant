@@ -95,6 +95,7 @@ class Sentiment_router:
     def __init__(self):
         self.route_layer = None
         self.routes = None
+        # IMPORTANT: Do not hardcode API keys here. Use environment variables or secure storage instead.
         self.encoder = OpenAIEncoder(dimensions=3072, score_threshold=0.51)  # Ensure your API key is set appropriately
         self.setup_routes()
 

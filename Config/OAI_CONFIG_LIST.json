@@ -10,11 +10,10 @@
     },
 
     {
-        "model": "gpt-3.5-turbo-1106",
-        "api_key": "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"
+        "model": "gpt-3.5-turbo-1106"
     },
     {
-        "model": "dalle"
+        "model": "dalle",
         "api_version": "2023-06-01-preview"
     },
     {
@@ -24,7 +23,6 @@
         "model": "local-model",
         "base_url": "http://localhost:8000/v1",
         "api_type": "open_ai",
-        "api_key_env_var": "LOCAL_MODEL_API_KEY"
+        "api_key": "NULL"
     }
-]
 ]
