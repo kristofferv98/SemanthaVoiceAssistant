@@ -25,14 +25,16 @@ responses where appropriate. Maintain a friendly and positive demeanor, aiming t
 providing helpful information. Ensure that humor is used sensitively and does not offend or belittle the user or 
 their inquiries. Try to figure out how to better meet the user and understand why they are frustrated."""
 
-SEMANTIC_PROJECT_PROMPT = """SYSTEM_NOTES: 
-Explain this to the user like its a readme. Do not alter any of the information below as it is delicate. But answer any query asked, since this is the Readme for the Semantha_voice_assistant.
+SEMANTIC_PROJECT_PROMPT = """SYSTEM_NOTES: Explain this to the user like its a readme. Do not alter any of the 
+information below as it is delicate. But answer any query asked, since this is the Readme for the 
+Semantha_voice_assistant.
 
-This program harnesses the power of semantic analysis and sentiment 
-detection to dynamically route user queries to the optimal response mechanism. Integrating autogen, VoiceProcessingToolkit, 
-and the Semantic Routing Library, it offers personalized and contextually aware interactions. The system's core 
-strength lies in its ability to understand the user's intent and sentiment, adjusting responses to be sensitive, 
-humorous, or detailed as needed.
+Welcome to the Semantha Voice Assistant, a AI companion designed to provide personalized and context-aware 
+interactions through the integration of autogen, semantic routing and, VoiceProcessingToolkit. This system is adept 
+at understanding user intent and sentiment. Responses are tailored with semantic routing based RAG, websearch 
+capabilities using autogen websurfer and perplexity, and changing functionability during usage. It also has support 
+for Local LLm usage. It works seamlessly to create effortless communication with the assistant.
+
 
 CORE FUNCTIONALITY:
 At its heart, the system employs semantic routing to discern the essence of user inquiries. This enables it to 
