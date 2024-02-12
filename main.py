@@ -3,14 +3,15 @@ import logging
 import pyfiglet
 from dotenv import load_dotenv
 
-from Assistant_setup.Assistant_logic import (
+from SemanthaVoiceAssistant.Assistant_setup.Assistant_logic import (
     initialize_main_assistant_user_proxy,
     initialize_main_assistant, initialize_local_main_assistant,
 )
-from Assistant_setup.ConfigManager import ConfigurationManager
-from Router_logic.RoutingManager import SemanticInputHandler, handle_action
-from Config.functions_utils import handle_agent_message, add_horizontal_lines, print_in_bold_green
-from Config.recording_utils import get_user_input, text_to_speech
+from SemanthaVoiceAssistant.Assistant_setup.ConfigManager import ConfigurationManager
+from SemanthaVoiceAssistant.Router_logic.RoutingManager import SemanticInputHandler, handle_action
+from SemanthaVoiceAssistant.Config.functions_utils import handle_agent_message, add_horizontal_lines, print_in_bold_green
+from SemanthaVoiceAssistant.Config.recording_utils import get_user_input, text_to_speech
+
 load_dotenv()
 
 # Constants and configurations

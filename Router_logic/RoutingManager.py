@@ -4,9 +4,9 @@ import os
 from semantic_router import Route, RouteLayer
 from semantic_router.encoders import OpenAIEncoder
 
-from Config.log_config import get_logger
-from Router_logic.Research_router import Research_route_manager, create_full_prompt
-from Router_logic.Sentiment_router import create_sentiment_prompt, Sentiment_router
+from SemanthaVoiceAssistant.Config.log_config import get_logger
+from SemanthaVoiceAssistant.Router_logic.Research_router import Research_route_manager, create_full_prompt
+from SemanthaVoiceAssistant.Router_logic.Sentiment_router import create_sentiment_prompt, Sentiment_router
 
 os.environ["OPENAI_MODEL_NAME"] = "text-embedding-3-large"
 

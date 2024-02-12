@@ -1,10 +1,10 @@
 import autogen
 from autogen.agentchat.contrib.gpt_assistant_agent import GPTAssistantAgent
 
-from Config.Config_list import config_list, config_list_local
-from Config.log_config import get_logger
-from Function_calls.Function_schema.function_schema import query_web_schema, fetch_and_read_pdf_schema
-from Function_calls.Web_surfer.Surfer_agent import query_web, fetch_and_read_pdf
+from SemanthaVoiceAssistant.Config.Config_list import config_list, config_list_local
+from SemanthaVoiceAssistant.Config.log_config import get_logger
+from SemanthaVoiceAssistant.Function_calls.Function_schema.function_schema import query_web_schema, fetch_and_read_pdf_schema
+from SemanthaVoiceAssistant.Function_calls.Web_surfer.Surfer_agent import query_web, fetch_and_read_pdf
 
 logger = get_logger(log_level='ERROR')
 
@@ -61,7 +61,7 @@ def initialize_main_assistant_user_proxy():
         max_consecutive_auto_reply=0,
         human_input_mode="NEVER",
         # is_termination_msg=is_termination_msg,
-        code_execution_config={"work_dir": "coding", "use_docker": True},
+        code_execution_config={"work_dir": "coding", "use_docker": None},
         llm_config={"config_list": config_list},
     )
     return main_assistant_user_proxy

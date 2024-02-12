@@ -2,7 +2,7 @@ import logging
 import os
 import re
 
-from Config.log_config import get_logger
+from SemanthaVoiceAssistant.Config.log_config import get_logger
 
 logger = get_logger(log_level='ERROR')
 
