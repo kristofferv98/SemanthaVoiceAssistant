@@ -1,37 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="523610dd-8b67-483e-ad3d-eadd64d312b4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/SemanthaVoiceAssistant.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assistant_setup/Assistant_logic.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assistant_setup/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config/Config_list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config/config_file.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config/functions_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config/log_config.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Config/recording_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Function_calls/Function_schema/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Function_calls/Function_schema/function_schema.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Function_calls/Web_surfer/Surfer_agent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Function_calls/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Router_logic/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assistant_setup/ConfigManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assistant_setup/ConfigManager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/OAI_CONFIG_LIST.json" beforeDir="false" afterPath="$PROJECT_DIR$/Config/OAI_CONFIG_LIST.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Router_logic/RoutingManager.py" beforeDir="false" afterPath="$PROJECT_DIR$/Router_logic/RoutingManager.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Router_logic/Sentiment_router.py" beforeDir="false" afterPath="$PROJECT_DIR$/Router_logic/Sentiment_router.py" afterDir="false" />
-    </list>
+    <list default="true" id="523610dd-8b67-483e-ad3d-eadd64d312b4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -117,11 +90,14 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1707699414665</updated>
-      <workItem from="1707699416328" duration="367000" />
+      <workItem from="1707699416328" duration="825000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SemanthaVoiceAssistant$main.coverage" NAME="main Coverage Results" MODIFIED="1707699767983" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

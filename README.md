@@ -54,7 +54,7 @@ humor, or expert advice as needed. This system ensures a rich and personalized u
 and context-aware responses.
 
 ## ACKNOWLEDGEMENTS:
-Special thanks to https://github.com/aurelio-labs/semantic-router and James Briggs and his team for developing the semantic-routing library and showcasing its use case on the YouTube channel https://www.youtube.com/@jamesbriggs. 
-Their contributions have been invaluable to the development of this project.
+Special thanks to James Briggs and his team for developing the semantic-routing library and showcasing its use case on the YouTube channel https://www.youtube.com/@jamesbriggs. 
+Their contributions have been invaluable to the development of this project. The link to the library can be found here https://github.com/aurelio-labs/semantic-router.
 
 For more information on voice processing and additional functionalities, visit my library at https://github.com/kristofferv98/VoiceProcessingToolkit.
