@@ -4,6 +4,23 @@ context-aware interactions through the integration of advanced semantic analysis
 processing technologies. This system is adept at understanding user intent and sentiment, offering responses that 
 are empathetic, humorous, or detailed, tailored to the user's needs.
 
+## Setup and Installation
+Get started with Semantha Voice Assistant by following these steps:
+1. Install dependencies: `pip install -r requirements.txt`.
+2. Set enviorment variables in `.env`
+3. Start the assistant: `python main.py`.
+4. Type for example "Explain the Samantha program to me. and tell me how to customize it for a demo and instruction of usage"
+5. Type "change input", "toggle voice feedback" or similar to enable or disable voice feedback. 
+6. Say "hey Computer" to trigger the voice based interaction when input is set to recording. (Visit https://github.com/kristofferv98/VoiceProcessingToolkit for details)
+
+Recommended:
+PICOVOICE_APIKEY is for voice interperation is available free at picovoices website
+ELEVENLABS_API_KEY for natural language responses
+
+(optional):
+BING_API_KEY for webscraping using autogen websurfer (visit autogens notebook on github for further information)
+PERPLEXITY_API_KEY for more advanced webscraping.
+
 ## Core Functionality
 The Semantha Voice Assistant features a semantic routing core that accurately interprets the essence of user 
 inquiries. This core functionality allows for efficient management of a wide range of requests, including toggling 
@@ -32,22 +49,6 @@ The copilot feature, combined with perplexity analysis, enriches web searches, o
 To utilize voice responses or the advanced research copilot function, configure the necessary API keys in the `.env` 
 file at the project's root. The following keys are mandatory:
 - `OPENAI_API_KEY`: For embeddings and assistant functionalities.
-
-## Setup and Installation
-Get started with Semantha Voice Assistant by following these steps:
-1. Install dependencies: `pip install -r requirements.txt`.
-2. Start the assistant: `python main.py`.
-3. Type for example "Explain the Samantha program to me. and tell me how to customize it for a demo and instruction of usage"
-4. Type "change input", "toggle voice feedback" or similar to enable or disable voice feedback. 
-5. Say "hey Computer" to trigger the voice based interaction when input is set to recording. (currently only tested on mac. Visit https://github.com/kristofferv98/VoiceProcessingToolkit for details)
-
-Recommended:
-PICOVOICE_APIKEY is for voice interperation is available free at picovoices website
-ELEVENLABS_API_KEY for natural language responses
-
-(optional):
-BING_API_KEY for webscraping using autogen websurfer (visit autogens notebook on github for further information)
-PERPLEXITY_API_KEY for more advanced webscraping.
 
 ## Conclusion
 Semantha Voice Assistant exemplifies the seamless integration of semantic embeddings and voice processing 
