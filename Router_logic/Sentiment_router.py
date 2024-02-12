@@ -173,6 +173,7 @@ class Sentiment_router:
                 "Explain the Samantha program to me. and tell me how to customize it",
                 "How do i customize the assistant?",
                 "How does the Semantha Assistant work",
+                "How do i set up the Semantha project"
             ],
         )
 
