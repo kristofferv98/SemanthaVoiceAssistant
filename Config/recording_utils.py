@@ -21,7 +21,7 @@ def get_user_input(play_notification_sound=True, use_wake_word=False, tts=False)
         play_notification_sound=True or play_notification_sound,
         wake_word="computer",
         min_recording_length=3,
-        inactivity_limit=2,
+        inactivity_limit=2.5,
         sensitivity=0.5,
         voice_threshold=0.9,
     )
