@@ -10,7 +10,7 @@ import fitz
 from dotenv import load_dotenv
 from openai import OpenAI
 
-from Config.Config_list import config_list
+from SemanthaVoiceAssistant.Config.Config_list import config_list
 
 load_dotenv()
 perplexity_apikey = os.getenv("PERPLEXITY_API_KEY")
@@ -167,7 +167,6 @@ def create_web_surfer_agent():
     return surfer_agent, web_proxy_agent
 
 
-
 def initiate_task(task_description, task_time, clear_chat_history=False):
     """
     Initiates a task with the WebSurferAgent at a specified time.
@@ -191,17 +190,27 @@ def query_web(task_description_input, should_clear_history=False, copilot=None):
     Parameters:
         task_description_input (str): The task to be performed.
         should_clear_history (bool, optional): Whether to clear chat history before the task. Defaults to False.
+        copilot (bool, optional): Whether to use Perplexity API for enhancing the query. Defaults to None.
     """
     if should_clear_history:
         print("CLEARING HISTORY")
-    if copilot:
-        print("ENABLED PREPLEXITY")
-        Preformated_information = query_preplexity_with_message(task_description_input)
-        str(Preformated_information)
-        task_description_input = f"""Question: \n{task_description_input} \n\nInformation we have so far: \n{Preformated_information}\n"""
-    if not task_description_input.strip():
+
+    if not task_description_input:
         print("Error: 'task_description_input' must be a non-empty string.")
         return
+
+    if copilot:
+        print("ENABLED PERPLEXITY")
+        try:
+            Preformatted_information = query_preplexity_with_message(task_description_input)
+            task_description_input = f"""Question: \n{task_description_input} \n\nInformation we have so far: \n{Preformatted_information}\n"""
+        except Exception:
+            print("No Perplexity API found. Please check https://docs.perplexity.ai for more information.")
+
+    bing_api_key = os.getenv('BING_API')
+    if bing_api_key is None:
+        print(
+            "BING_API environment variable not set. Please check https://www.microsoft.com/en-us/bing/apis/bing-web-search-api for more information.")
 
     current_time = datetime.now()
     try:
