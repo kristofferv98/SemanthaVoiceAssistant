@@ -2,7 +2,8 @@
 Welcome to the Semantha Voice Assistant, a AI companion designed to provide personalized and 
 context-aware interactions through the integration of autogen, semantic routing and, VoiceProcessingToolkit. 
 This system is adept at understanding user intent and sentiment, offering responses that 
-are empathetic, humorous, or detailed, tailored to the user's needs.
+are tailored with semantic routing based RAG, websearch capabilities using autogen websurfer and perplexity.
+It also has support for Local LLm usage.
 
 ## Setup and Installation
 Before installing the requirements, navigate to the SemanthaVoiceAssistant project directory:
