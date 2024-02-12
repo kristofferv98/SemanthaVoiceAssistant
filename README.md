@@ -38,6 +38,8 @@ Get started with Semantha Voice Assistant by following these steps:
 1. Install dependencies: `pip install -r requirements.txt`.
 2. Start the assistant: `python main.py`.
 3. Type for example "Explain the Samantha program to me. and tell me how to customize it for a demo and instruction of usage"
+4. Type "change input", "toggle voice feedback" or similar to enable or disable voice feedback. 
+5. Say "hey Computer" to trigger the voice based interaction when input is set to recording. (currently only tested on mac. Visit https://github.com/kristofferv98/VoiceProcessingToolkit for details)
 
 Recommended:
 PICOVOICE_APIKEY is for voice interperation is available free at picovoices website
