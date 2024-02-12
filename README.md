@@ -5,7 +5,11 @@ processing technologies. This system is adept at understanding user intent and s
 are empathetic, humorous, or detailed, tailored to the user's needs.
 
 ## Setup and Installation
-Get started with Semantha Voice Assistant by following these steps:
+Before installing the requirements, navigate to the SemanthaVoiceAssistant project directory:
+```
+cd SemanthaVoiceAssistant
+```
+Then, get started with Semantha Voice Assistant by following these steps:
 1. Install dependencies: `pip install -r requirements.txt`.
 2. Set enviorment variables in `.env`
 3. Start the assistant: `python main.py`.
