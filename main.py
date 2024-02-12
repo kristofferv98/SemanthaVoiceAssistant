@@ -56,7 +56,7 @@ class Assistant:
         self.user_proxy = initialize_main_assistant_user_proxy()
 
         if assistant_type == "local":
-            ascii_art = pyfiglet.figlet_format("LOCAL_SAM", font="slant")
+            ascii_art = pyfiglet.figlet_format("LOCAL-SAM", font="slant")
             framed_art = add_horizontal_lines(ascii_art, line_length=33)
             print_in_bold_green(framed_art)
             self.main_assistant = initialize_local_main_assistant(instructions)
