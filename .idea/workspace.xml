@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="523610dd-8b67-483e-ad3d-eadd64d312b4" name="Changes" comment="Corrected paths for git setup">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/recording_utils.py" beforeDir="false" afterPath="$PROJECT_DIR$/Config/recording_utils.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="523610dd-8b67-483e-ad3d-eadd64d312b4" name="Changes" comment="Corrected paths for git setup" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1707699414665</updated>
       <workItem from="1707699416328" duration="10060000" />
-      <workItem from="1707753414236" duration="2763000" />
+      <workItem from="1707753414236" duration="3082000" />
     </task>
     <task id="LOCAL-00001" summary="Added dotenv to requirements.txt">
       <option name="closed" value="true" />
