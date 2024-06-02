@@ -21,7 +21,7 @@ class SemanticInputHandler:
         self.route_layer = None
         self.routes = None
         # IMPORTANT: Do not hardcode API keys here. Use environment variables or secure storage instead.
-        self.encoder = OpenAIEncoder(dimensions=256, score_threshold=0.51)  # Ensure your API key is set appropriately
+        self.encoder = OpenAIEncoder(name="text-embedding-3-large", dimensions=256, score_threshold=0.51)  # Ensure your API key is set appropriately
         self.setup_routes()
 
     def setup_routes(self):
