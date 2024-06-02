@@ -4,7 +4,7 @@ pyfiglet~=1.0.2
 semantic-router
 VoiceProcessingToolkit~=0.1.8.2
 PyMuPDF
-
+pyfiglet
 
 python-dotenv~=1.0.1
 requests~=2.31.0
