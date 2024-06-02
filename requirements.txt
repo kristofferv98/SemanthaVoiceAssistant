@@ -1,7 +1,7 @@
 
 pyautogen[websurfer]
 pyfiglet~=1.0.2
-semantic-router
+semantic-router==0.0.46
 VoiceProcessingToolkit~=0.1.8.2
 PyMuPDF
 pyfiglet
