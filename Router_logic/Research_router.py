@@ -77,7 +77,7 @@ class Research_route_manager:
     def __init__(self):
         self.route_layer = None
         self.routes = None
-        self.encoder = OpenAIEncoder(dimensions=512, score_threshold=0.3)  # Ensure your API key is set appropriately
+        self.encoder = OpenAIEncoder(name="text-embedding-3-large", score_threshold=0.3)  # Ensure your API key is set appropriately
         self.setup_routes()
 
     def setup_routes(self):
