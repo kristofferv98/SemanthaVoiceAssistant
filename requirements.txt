@@ -1,5 +1,4 @@
-
-pyautogen[websurfer]
+pyautogen[websurfer]~=0.2.28
 pyfiglet~=1.0.2
 semantic-router==0.0.46
 VoiceProcessingToolkit~=0.1.8.2
